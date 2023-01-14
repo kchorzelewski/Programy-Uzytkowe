@@ -1,0 +1,20 @@
+Tworzenie macierzy: [1,2,3;4,5,6;7,8,9]
+I wektorów: [1,2,3]
+
+Wyznacznik macierzy: det(matrix)
+
+Iloczyn skalarny wektorów: v .* v2
+
+Generowanie cyfr od 5 do 10: floor(rand(10,10)*5+6)
+
+M1 = [3,5,5,5,5;5,3,5,5,5;5,5,3,5,5;5,5,5,3,5;5,5,5,5,3]
+M2 = rand(4,5)*11 - liczby losowe
+M2 = round(M2) - zaokrąglanie
+M1^(-1) - macierz odwrotna
+M2' - transponowanie
+M1 * M2 - iloczyn 
+M3 = [M3(1,:),1;M3(2,:),1;M3(3,:),1;M3(4,:),1;M3(5,:),1] - dodawanie kolumny z samych jedynek
+M1 + M2 - dodawanie
+
+
+
