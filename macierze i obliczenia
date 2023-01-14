@@ -1,0 +1,59 @@
+Zadanie 8.1
+  - %pi/180*x - stopnie na radiany
+  - 180/%pi*x*(%pi) - radiany na stopnie
+  
+  - sqrt(9+4*sqrt(5))
+    
+   
+   
+ sqrt()  pierwiastek
+ nthroot(,m)  pierwiastek m-tego stopnia
+ log()  logarytm naturalny (o podstawie e)
+ log10()  logarytm dziesiętny (o podstawie 10)
+ log2()  logarytm o podstawie 2
+ exp()  funkcja eksponencjalna (exp(x) jest to samo, ze %e^x)
+ abs()  warto±¢ bezwzględna
+    
+    - log(9)/log(3) = log_3^9
+    
+ int()  obcięcie liczby do całkowitej
+ floor()  podłoga
+ ceil()  sufit
+ round()  zaokrąglanie
+
+Definicja wektora wierszowego (można również [1,2,3,4])
+- ->a=[1 2 3 4]
+
+Definicja macierzy:
+c = [1,2,3;4,5,6;7,8,9]
+
+iterowanie idzie z góry do dołu a nie z lewej do prawej:
+c(1) = 1
+c(2) = 4
+c(1,2) = 2
+c(wiersz, kolumna)
+
+Składnia pocz:krok:granica:
+c=1:3:11    1. 4. 7. 10.      //taka pętla for
+
+d=0:%pi/4:%pi
+0.   0.7853982   1.5707963   2.3561945   3.1415927
+
+- ->a=[10 20 30 40 50];
+- ->b=a(2:4) - elementy od drugiego po czwarty b=[20 30 40]
+- ->c=a(3:$) - od trzeciego do ko«ca c=[30 40 50]
+- ->c=a($:-2:1) - Od ko«ca do pocz¡tku, co drugi c=[50 30 10]
+
+Operacje na wektorach
+sum(a)
+prod(a)
+length(a)
+max(a)
+min(a)
+
+
+
+
+
+    
+    
