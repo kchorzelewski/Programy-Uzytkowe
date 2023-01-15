@@ -55,5 +55,73 @@ min(a)
 
 
 
+pd10
+M1 = floor(rand(5,3)*15-7) - tworzenie tablicy od -7 do 7
+M3 = [M1(1,:),1,1;M1(2,:),1,1;M1(3,:),1,1;M1(4,:),1,1;M1(5,:),1,1] - dodawanie 2 kolumn z jedynkami
+M3 = M3^5 - podnoszenie do potęgi 5
+
+
+u = [M(3,:)] - trzeci wiersz macierzy jako wektor
+
+
+nie wiem jak się robi iloczyn skalarny
+
+
+
+n=1
+while n<15
+  1/n
+  n=n+1;
+  end
+
+for n=1:15
+  1/n
+  end
+
+
+nie wiem jak zrobić silnię
     
-    
+pd 11 mam niedokończone!!!!
+
+
+
+
+
+
+
+(wykresy funkcji cos i sin)
+clf
+- -> x = [0:0.01:2*%pi];
+- -> y = sin(x);
+- -> z= cos(x);
+- -> plot(x,y)
+- ->plot(x,z)
+
+plot(x,y, 'LineWidth',3) // 3 - grubość lini
+- - >plot(x,z,'r','LineWidth',3)
+plot(x,y,'r','LineWidth', 3) - 'r' znaczy że wykres jest czerwony
+plot(x,[sin(x) tan(x)])
+xgrid - tworzenie kratek
+xlabel, ylabel - podpisy x i y
+title('wykres')
+legend('sin(x)','cos(x)',3) - legenda
+
+WYKRES:
+clf
+x = [tutaj trzeba dać podziałkę liniową czyli np od -1 do 1]
+y = wzór
+z = wzór
+plot(x,y,'LineWidth',3) - rysowanie
+plot(x,z,'LineWidth',3) - rysowanie
+xlabel('x')
+ylabel('wzór y i wzór z')
+title('tytuł')
+
+TABELKA:
+clf
+a = [a,b,c] - tutaj dane z pierwszego wiersza będą
+b = [1,2,3;4,5,6;7,8,9] - tutaj będzie ilość wierszy odpowiadające a
+bar(a,b,0.5) - grubość słupków ta ostatnia
+xgrid - siatka
+title('tytuł')
+legend('legenda', 'legenda1', 'legenda2')
